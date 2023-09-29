@@ -53,10 +53,10 @@ export default function Home() {
 
   return (
     <main>
-      <section className="relative h-screen py-36 flex items-center bg-[url('../images/bg.jpg')] bg-center bg-cover">
+      <section className="relative h-screen py-36 flex items-center bg-[url('../images/bg.jpg')] bg-center bg-cover overflow-auto">
         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-orange-400 to-orange-900 opacity-90">
         </div>
-        <div className="container mx-auto px-4 relative">
+        <div className="container mx-auto px-4 relative pt-20">
           <div className="max-w-[400px] m-auto p-6 bg-white dark:bg-slate-900 dark:shadow-gray-800 rounded-md shadow-xl">
             <form action="">
               <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-black-900 md:text-2xl lg:text-3xl">あなたは脂肪肝？</h1>
